@@ -68,3 +68,69 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 2px solid #ffc0cb;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #ff69b4;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #ffc0cb;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #ff69b4;
+  color: white;
+}
+
+td a {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
